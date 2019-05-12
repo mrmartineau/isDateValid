@@ -1,0 +1,3 @@
+{
+  "extends": ["@mrmartineau/scripts/eslint"]
+}
