@@ -6,8 +6,10 @@
  * @returns {boolean}
  */
 
-export const isDateValid = function(year, month, day) {
-  const reducedDay = Number(day)
-  const date = new Date(Date.parse(`${year}-${month}-${reducedDay}`)).getDate()
+export var isDateValid = function(year, month, day) {
+  var reducedDay = Number(day)
+  var date = new Date(
+    Date.parse(year + '-' + month + '-' + reducedDay)
+  ).getDate()
   return !Number.isNaN(date) && date === reducedDay
 }

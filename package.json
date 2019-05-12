@@ -9,8 +9,8 @@
     "type": "git",
     "url": "git@github.com:mrmartineau/isDateValid.git"
   },
-  "main": "dist/isDateValid.js",
-  "module": "dist/isDateValid.mjs",
+  "main": "dist/isDateValid.cjs.js",
+  "module": "dist/isDateValid.esm.js",
   "types": "isDateValid.d.ts",
   "license": "MIT",
   "devDependencies": {
