@@ -18,13 +18,16 @@
     "@babel/preset-env": "^7.4.4",
     "@mrmartineau/scripts": "^0.0.0",
     "babel-jest": "^24.8.0",
+    "eslint": "^5.16.0",
     "jest": "^24.8.0",
+    "release-it": "^12.0.1",
     "rollup": "^1.11.3"
   },
   "scripts": {
     "test": "jest",
     "build": "rollup -c",
     "watch": "rollup -c -w",
-    "prepack": "yarn build"
+    "prepack": "yarn build",
+    "release": "release-it"
   }
 }
